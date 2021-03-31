@@ -1,6 +1,6 @@
 // Data
 const loc = document.getElementById('loc');
-const img = documnet.getElementById('cImg');
+const img = document.getElementById('cImg');
 
 var clicks = 0;
 
