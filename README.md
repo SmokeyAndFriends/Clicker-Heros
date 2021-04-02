@@ -4,4 +4,4 @@ noob indie developers how to make
 an incremental game with:  
 Javascript, HTML5, CSS3  
 
-***Uprades not included***
+***Uprades comming in final update***
