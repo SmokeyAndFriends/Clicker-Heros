@@ -5,8 +5,8 @@ const img = document.getElementById('cImg');
 var totalClicks = 0;
 
 function loadData() {
-   totalClicks = localStorage.getItem("Clicks");
-   clicks.textContent = 'Clicks: ' + totalClicks;
+   totalClicks = JSON.parse(localStorage.getItem('clicks'));
+   clicks.textContent = "Clicks: " + totalClicks;
 };
 
 // Event listeners
