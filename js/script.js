@@ -7,5 +7,6 @@ var totalClicks = 0;
 // Event listeners
 img.addEventListener("click", function() {
   totalClicks += 1;
+  localStorage.setItem('tc', totalClicks);
   clicks.textContent = "Clicks: " + totalClicks;
 });
