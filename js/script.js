@@ -12,6 +12,6 @@ function loadData() {
 // Event listeners
 img.addEventListener("click", function() {
   totalClicks += 1;
-  localStorage.totalClicks += 1;
+  localStorage.totalClicks = totalClicks;;
   clicks.textContent = "Clicks: " + totalClicks;
 });
