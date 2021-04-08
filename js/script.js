@@ -7,7 +7,7 @@ var totalClicks = 0;
 function loadData() {
    totalClicks = JSON.parse(localStorage.getItem('clicks'));
    clicks.textContent = "Clicks: " + totalClicks;
-};
+}
 
 // Event listeners
 img.addEventListener("click", function() {
