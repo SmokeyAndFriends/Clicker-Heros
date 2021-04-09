@@ -17,7 +17,7 @@ function wipeData() {
   switch(wipe) {
     case("y"): {
       totalClicks = 0;
-      localStorage.removeItem('clicks');
+      localStorage.setItem('clicks', 0);
       clicks.textContent = "Clicks: " + totalClicks;
     }
     case("n"): {
