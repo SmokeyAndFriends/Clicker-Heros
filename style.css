@@ -7,13 +7,5 @@ body {
 }
 
 br {
-  content: " ";
+  display: block;
 }
-
-.bbCodeImage
-{
-	display: block;
-}
-
-
-
