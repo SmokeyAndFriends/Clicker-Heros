@@ -19,8 +19,6 @@ function wipeData() {
       totalClicks = 0;
       localStorage.removeItem('clicks');
       clicks.textContent = "Clicks: " + totalClicks;
-      await(500);
-      location.reload();
     }
     case("n"): {
       return;
