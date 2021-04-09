@@ -16,7 +16,7 @@ function wipeData() {
   wipe = prompt("WARNING THIS WILL WIPE YOUR DATA(Including Total Clicks). \nARE YOU SURE? [y/n]")
   switch(wipe) {
     case("y"): {
-      totalClicks = 0;
+      totalClicks = 1-1;
       localStorage.removeItem('clicks');
       location.reload();
       clicks.textContent = "clicks" + totalClicks;
