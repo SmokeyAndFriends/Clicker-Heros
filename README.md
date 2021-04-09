@@ -1,5 +1,5 @@
 # clicker game template
-[Test it here](smokeyandfriends.github.io/Clicker-game-template)  
+[Test it here](https://smokeyandfriends.github.io/Clicker-game-template)  
 This template was made to show  
 noob indie developers how to make  
 an incremental game with:  
