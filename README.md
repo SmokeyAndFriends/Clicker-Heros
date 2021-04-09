@@ -5,7 +5,7 @@ an incremental game with:
 Javascript, HTML5, CSS3  
 
 ## What's new?
-Save system
+Save system (via localStorage)
 
 ### What's next?
 Upgrades
