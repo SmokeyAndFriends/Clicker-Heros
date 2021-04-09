@@ -10,5 +10,10 @@ br {
   content: " ";
 }
 
+.bbCodeImage
+{
+	display: block;
+}
+
 
 
