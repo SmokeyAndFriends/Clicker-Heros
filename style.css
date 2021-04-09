@@ -6,7 +6,15 @@ body {
   text-align: center;
 }
 
+.left-bar {
+  float: left;
+  text-align: center;
+}
 
+.right-bar {
+  float: right;
+  text-align: center;
+}
 
 br {
   display: block;
