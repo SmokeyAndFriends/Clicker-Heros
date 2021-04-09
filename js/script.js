@@ -10,7 +10,7 @@ function loadData() {
    clicks.textContent = "Clicks: " + totalClicks;
 }
 
-// Event listener(s)
+// Event listeners
 img.addEventListener("click", function() {
   totalClicks += 1;
   localStorage.setItem("clicks", JSON.stringify(totalClicks));
