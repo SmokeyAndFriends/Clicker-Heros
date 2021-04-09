@@ -13,13 +13,14 @@ function loadData() {
 };
 
 function wipeData() {
-  wipe = prompt("WARNING THIS WILL WIPE YOUR DATA(Including Total Clicks). \nARE YOU SURE? [y/n]")
+  wipe = prompt("WARNING THIS WILL WIPE YOUR DATA (Including Total Clicks). \nARE YOU SURE? [y/n]")
   switch(wipe) {
     case("y"): {
-      totalClicks = 1-1;
+      totalClicks = 0;
       localStorage.removeItem('clicks');
+      clicks.textContent = "Clicks: " + totalClicks;
+      await(500);
       location.reload();
-      clicks.textContent = "clicks" + totalClicks;
     }
     case("n"): {
       return;
