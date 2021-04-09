@@ -3,6 +3,7 @@ const clicks = document.getElementById('loc');
 const img = document.getElementById('cImg');
 
 var totalClicks = 0;
+var cps = 0;
 
 // functions
 function loadData() {
