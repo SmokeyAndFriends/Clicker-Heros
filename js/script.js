@@ -18,13 +18,12 @@ function wipeData() {
     case("y"): {
       localStorage.removeItem('clicks');
       totalClicks = 0;
-      clicks.textContent = "clicks" + totalClicks;
       location.reload();
+      clicks.textContent = "clicks" + totalClicks;
     }
     case("n"): {
       return;
     }
-    default: {totalClicks}
   };
 };
 
@@ -34,3 +33,5 @@ img.addEventListener("click", function() {
   localStorage.setItem("clicks", JSON.stringify(totalClicks));
   clicks.textContent = "Clicks: " + totalClicks;
 });
+
+// Other code
