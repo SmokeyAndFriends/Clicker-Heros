@@ -4,6 +4,7 @@ body {
   color: aqua;
   background-color: crimson;
   text-align: center;
+  display: inline-block;
 }
 
 .left-bar {
