@@ -3,11 +3,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: aqua;
   background-color: crimson;
-}
-
-.middle-bar {
   text-align: center;
 }
+
+
 
 br {
   display: block;
