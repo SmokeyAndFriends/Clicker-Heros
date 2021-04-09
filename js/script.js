@@ -4,6 +4,7 @@ const img = document.getElementById('cImg');
 
 var totalClicks = 0;
 
+// functions
 function loadData() {
    totalClicks = JSON.parse(localStorage.getItem('clicks'));
    clicks.textContent = "Clicks: " + totalClicks;
