@@ -9,4 +9,5 @@ Javascript, HTML5, CSS3
 Save system (via localStorage)
 
 ### What's next?
+Styling changes  
 Upgrades
