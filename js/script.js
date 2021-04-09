@@ -1,6 +1,7 @@
 // Data
-const clicks = document.getElementById('loc');
-const img = document.getElementById('cImg');
+const mid = document.getElementsByClassName('middle-bar')[0];
+const clicks = mid.getElementById('loc');
+const img = mid.getElementById('cImg');
 
 var totalClicks = 0;
 var cps = 0;
