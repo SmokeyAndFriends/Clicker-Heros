@@ -19,6 +19,5 @@ br {
   margin-right: auto;
 }
 
-#cImg:hover {
-    size: 15px;
-}
+#cImg { transition: transform 0.5s; }
+#cImg:hover { transform: scale(15px); }
