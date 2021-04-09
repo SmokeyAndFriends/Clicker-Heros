@@ -21,8 +21,6 @@ br {
 
 .thumbnail:hover {
   position:relative;
-  top:-25px;
-  left:-35px;
   width:185px;
   height:185px;
   display:block;
