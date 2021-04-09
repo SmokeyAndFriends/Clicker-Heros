@@ -8,14 +8,10 @@ body {
 
 .left-bar {
   float: left;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
 }
 
 .right-bar {
   float: right;
-  text-align: center;
 }
 
 br {
