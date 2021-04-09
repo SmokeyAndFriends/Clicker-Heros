@@ -17,9 +17,14 @@ br {
 #cImg {
   margin-left: auto;
   margin-right: auto;
-  transition: all .2s ease-in-out;
 }
 
-#cImg:hover { 
-  transform: scale(1.1); 
+.thumbnail:hover {
+  position:relative;
+  top:-25px;
+  left:-35px;
+  width:500px;
+  height:auto;
+  display:block;
+  z-index:999;
 }
