@@ -10,10 +10,12 @@ body {
 .left-bar {
   float: left;
   text-align: center;
+  margin: 5px;
 }
 
 .right-bar {
   float: right;
+  margin: 5px;
   text-align: center;
 }
 
