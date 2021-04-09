@@ -16,5 +16,5 @@ br {
 
 #cImg {
   display: block;
-  align-content: center;
+  float: inherit;
 }
