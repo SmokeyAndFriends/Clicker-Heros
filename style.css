@@ -17,7 +17,9 @@ br {
 #cImg {
   margin-left: auto;
   margin-right: auto;
+  transition: all .2s ease-in-out;
 }
 
-#cImg { transition: transform 0.5s; }
-#cImg:hover { transform: scale(15px); }
+#cImg:hover { 
+  transform: scale(1.1); 
+}
