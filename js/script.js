@@ -22,7 +22,7 @@ function wipeData() {
     case("n"): {
       return;
     }
-    default: {NaN}
+    default: {totalClicks}
   };
 };
 
