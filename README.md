@@ -11,3 +11,5 @@ Save system (via localStorage)
 ### What's next?
 Styling changes  
 Upgrades
+
+### NO MORE UPDATES, EVER!
