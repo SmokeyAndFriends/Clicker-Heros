@@ -1,5 +1,6 @@
+const id$barmid = document.getElementsByClassName('mid')[0];
 // Data
-const mid = document.getElementsByClassName('mid')[0];
+const mid = id$barmid;
 const clicks = mid.getElementById('loc');
 const img = mid.getElementById('cImg');
 
