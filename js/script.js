@@ -1,8 +1,5 @@
-const id$barmid = document.getElementsByClassName('mid')[0];
-// Data
-const mid = id$barmid;
-const clicks = mid.getElementById('loc');
-const img = mid.getElementById('cImg');
+const clicks = document.getElementById('loc');
+const img = document.getElementById('cImg');
 
 var totalClicks = 0;
 var cps = 0;
