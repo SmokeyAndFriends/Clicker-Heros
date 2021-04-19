@@ -31,5 +31,3 @@ img.addEventListener("click", function() {
   localStorage.setItem("clicks", JSON.stringify(totalClicks));
   clicks.textContent = "Clicks: " + totalClicks;
 });
-
-// Other code
