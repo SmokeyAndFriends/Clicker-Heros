@@ -7,7 +7,7 @@ Javascript, HTML5, CSS3
 
 ## Current version: v1.0
 "hol up. I thought you wearnt  
-updating the game anymore." 
+updating the game anymore."   
 I have big plans for the game 
 
 ## What's new?
